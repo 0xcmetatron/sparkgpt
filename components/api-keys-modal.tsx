@@ -284,7 +284,7 @@ headers = {
     "Content-Type": "application/json"
 }
 data = {
-    "message": "Hello MoonitGPT!"
+    "message": "Hello SparkGPT!"
 }
 
 response = requests.post(url, headers=headers, json=data)
@@ -303,7 +303,7 @@ print(response.json())`}
     "Content-Type": "application/json"
   },
   body: JSON.stringify({
-    message: "Hello MoonitGPT!"
+    message: "Hello SparkGPT!"
   })
 })
 .then(response => response.json())
