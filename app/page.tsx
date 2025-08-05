@@ -32,7 +32,7 @@ export default function ValentineGPT() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      content: "Hello! I'm **MoonitGPT**, your AI assistant created by **ChatGPT**. How can I help you today?",
+      content: "Hello! I'm **SparkGPT**, your AI assistant created by **ChatGPT**. How can I help you today?",
       role: "assistant",
       timestamp: new Date(),
     },
@@ -90,7 +90,7 @@ export default function ValentineGPT() {
             {
               id: "1",
               content:
-                "Hello! I'm **MoonitGPT**, your AI assistant created by **ChatGPT**. How can I help you today?",
+                "Hello! I'm **SparkGPT**, your AI assistant created by **ChatGPT**. How can I help you today?",
               role: "assistant",
               timestamp: new Date(),
             },
@@ -113,7 +113,7 @@ export default function ValentineGPT() {
     setMessages([
       {
         id: "1",
-        content: "Hello! I'm **MoonitGPT**, your AI assistant created by **ChatGPT**. How can I help you today?",
+        content: "Hello! I'm **SparkGPT**, your AI assistant created by **ChatGPT**. How can I help you today?",
         role: "assistant",
         timestamp: new Date(),
       },
@@ -160,7 +160,7 @@ export default function ValentineGPT() {
     setMessages([
       {
         id: "1",
-        content: "Hello! I'm **MoonitGPT**, your AI assistant created by **ChatGPT**. How can I help you today?",
+        content: "Hello! I'm **SparkGPT**, your AI assistant created by **ChatGPT**. How can I help you today?",
         role: "assistant",
         timestamp: new Date(),
       },
@@ -282,7 +282,7 @@ export default function ValentineGPT() {
             </div>
             <div>
               <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                MoonitGPT
+                SparkGPT
               </h1>
               <p className="text-sm text-gray-400">Created by Chatgpt</p>
             </div>
@@ -438,7 +438,7 @@ export default function ValentineGPT() {
             </Button>
           </div>
           <p className="text-xs text-chatgpt-text-secondary text-center mt-2">
-            MoonitGPT can make mistakes. Consider checking important information.
+            SparkGPT can make mistakes. Consider checking important information.
           </p>
         </motion.div>
       </div>
@@ -462,12 +462,12 @@ export default function ValentineGPT() {
                 <XLogo className="w-8 h-8 text-white" />
               </motion.div>
               <div>
-                <h3 className="text-lg font-semibold text-chatgpt-text-primary mb-2">Follow MoonitGPT on X</h3>
+                <h3 className="text-lg font-semibold text-chatgpt-text-primary mb-2">Follow SparkGPT on X</h3>
                 <p className="text-chatgpt-text-secondary text-sm mb-4">
-                  Stay updated with the latest features and ideas from MoonitGPT
+                  Stay updated with the latest features and ideas from SparkGPT
                 </p>
                 <motion.a
-                  href="https://x.com/MoonitGPT"
+                  href="https://x.com/SparkGPT"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.02 }}
@@ -475,7 +475,7 @@ export default function ValentineGPT() {
                   className="inline-flex items-center gap-2 bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-full font-medium transition-colors border border-chatgpt-border"
                 >
                   <XLogo className="w-4 h-4" />
-                  Follow MoonitGPT
+                  Follow SparkGPT
                 </motion.a>
               </div>
             </div>
